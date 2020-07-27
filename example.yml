@@ -1,1 +1,16 @@
-
+osds: 1.0.0
+meta:
+  name: The Magnificent System
+  description: |
+              An example complex system made up of dynamic parts that
+              we are going to document.
+  version: v1
+  authors:
+    - name: John Doe
+      role: Developer
+blueprint:
+  objects:
+    - type: server
+      cloud: true
+      platform: GCP
+      ip: 192.168.45.12
